@@ -1,8 +1,8 @@
 package LAB_1.Mission_Documents_1;
 
-class Singleton {
+public class SingletonPatternRaw {
 	String name;
-	public Singleton(String name) {
+	public SingletonPatternRaw(String name) {
 		this.name = name;
 	}
 	public String toString() {
@@ -10,9 +10,9 @@ class Singleton {
 	}
 }
 
-public class TEST {
+class TEST {
 	public static void main(String[] args) {
-		System.out.println(new Singleton("I1"));
+		System.out.println(new SingletonPatternRaw("I1"));
 	}
 }
 

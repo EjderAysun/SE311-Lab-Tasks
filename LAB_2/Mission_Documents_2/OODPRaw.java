@@ -76,11 +76,12 @@ class VendingMachine extends PotatoChips{
     }
 }
 
-public class Test{
+public class OODPRaw{
     public static void main(String []args){
         Scanner scan = new Scanner(System.in);
         VendingMachine V1 = new VendingMachine();
         System.out.println("Please enter the slot of the product you want...");
         V1.custChoice(scan.nextInt());
+        scan.close();
     }
 }

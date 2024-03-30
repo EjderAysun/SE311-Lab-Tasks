@@ -148,7 +148,7 @@ class VendingMachine{
     }
 }
 
-public class Test{
+public class OODP{
     public static void main(String []args){;
         ArrayList<Product> products = new ArrayList<Product>();
         PotatoChips potatoChips = new PotatoChips(0, 20, 5);

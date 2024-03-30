@@ -1,4 +1,4 @@
-package lab1;
+package LAB_1.Mission_Documents_1;
 
 class Singleton {
 	String name;

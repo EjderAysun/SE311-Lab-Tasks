@@ -64,21 +64,21 @@ I share documents publicly. The contents of the SE 311 projects that will be giv
 |Week#|Date|Topic|Lab#|Description|Goal|
 |:---:|---|---|---|---|---|
 |1|23 Feb.|Introduction to Design Patterns|1|Intro|Singleton Pattern|
-|2|1 Mar.|A refresher on polymorphism/inheritance and introduction to UML|2|OCP|???|
-|3|8 Mar.|Iterator Pattern |3|Iterator|???|
-|4|15 Mar.|Composite Pattern|4|Composite|???|
-|5|22 Mar.|Command Pattern |5|Command|???|
-|6|29 Mar.|Factory Pattern/Abstract Factory Pattern|6|Abstract Factory / Factory|???|
-|9|19 Apr.|Facade/Singleton Pattern|7|Singleton/Facade|???|
-|10|26 Apr.|Adapter Pattern|8|Adapter|???|
-|11|3 May|Template Pattern|9|Template|???|
-|12|10 May|Observer Pattern|10|Observer|???|
-|13|17 May|Visitor Pattern|11|Visitor|???|  
+|2|1 Mar.|A refresher on polymorphism/inheritance and introduction to UML|2|OCP||
+|3|8 Mar.|Iterator Pattern |3|Iterator||
+|4|15 Mar.|Composite Pattern|4|Composite||
+|5|22 Mar.|Command Pattern |5|Command||
+|6|29 Mar.|Factory Pattern/Abstract Factory Pattern|6|Abstract Factory / Factory||
+|9|19 Apr.|Facade/Singleton Pattern|7|Singleton/Facade||
+|10|26 Apr.|Adapter Pattern|8|Adapter||
+|11|3 May|Template Pattern|9|Template||
+|12|10 May|Observer Pattern|10|Observer||
+|13|17 May|Visitor Pattern|11|Visitor||  
 
 ---
 ## Contributors
-- for theory: SE 311 Course Coordinator and Course Lecturer, [Asst. Prof. Member Ufuk ÇELİKKAN](https://people.ieu.edu.tr/tr/ufukcelikkan/main)  
-- for lab: SE 311 Course Assistant, [Dr. Lect. Member Erdem OKUR](https://people.ieu.edu.tr/en/erdemokur/main)  
+- for theory: SE 311 Course Coordinator and Course Lecturer, [Asst. Prof. Ufuk ÇELİKKAN](https://people.ieu.edu.tr/tr/ufukcelikkan/main)  
+- for lab: SE 311 Course Assistant, [Res. Asst. Dr. Erdem OKUR](https://people.ieu.edu.tr/en/erdemokur/main)  
 - Ejder Aysun <ejderaysunn@gmail.com>  
 - “Design patterns: Elements of Reusable Object-Oriented Software” by E. Gamma, R. Helm, R. Johnson and J. Vlissides. Addison Wesley. 1995
 - Metseker and Wake “Design Patterns in Java”, Addison Wesley, 2006  

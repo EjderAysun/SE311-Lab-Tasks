@@ -1,4 +1,4 @@
-package LAB_9.LAB9_JAVA_Solution_With_One_Hook;
+package LAB_9.LAB9_JAVA.Solution_With_One_Hook;
 
 import java.util.Scanner;
 

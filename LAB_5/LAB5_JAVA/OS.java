@@ -1,6 +1,7 @@
 package LAB_5.LAB5_JAVA;
 
 import java.util.ArrayList;
+import java.util.List;
 
 //
 //The classes and/or objects participating in this pattern are:
@@ -24,18 +25,25 @@ public class OS {
 	public static void main(String[] args) {
 
 		// Create cpu and let it do the task
-		ConcreteTask task = null;
 		TaskScheduler taskScheduler = new TaskScheduler();
 		CPU cpu = new CPU();
 
-		task = new Task(cpu, "red");
-		taskScheduler.run(task);
-		task = new Task(cpu, "blue");
-		taskScheduler.run(task);
-		task = new Task(cpu, "green");
-		taskScheduler.run(task);
-		task = new Task(cpu, "yellow");
-		taskScheduler.run(task);
+		ConcreteTask task1 = new Task(cpu, "red");
+		taskScheduler.run(task1);
+		ConcreteTask task2 = new Task(cpu, "blue");
+		taskScheduler.run(task2);
+		ConcreteTask task3 = new Task(cpu, "green");
+		taskScheduler.run(task3);
+		ConcreteTask task4 = new Task(cpu, "yellow");
+		taskScheduler.run(task4);
+
+		// Macro Command
+		MacroTask macroTask = new MacroTask();
+		macroTask.addTask(task1);
+		macroTask.addTask(task2);
+		macroTask.addTask(task3);
+		macroTask.addTask(task4);
+		macroTask.Execute();
 
 		// Undo 4 commands
 		taskScheduler.Undo();
@@ -47,6 +55,20 @@ public class OS {
 		taskScheduler.Redo();
 		taskScheduler.Redo();
 	}
+}
+
+class MacroTask implements ConcreteTask {
+	private List<ConcreteTask> tasks = new ArrayList<>();
+
+	public void addTask(ConcreteTask task) {
+		tasks.add(task);
+	}
+
+	public void Execute() {
+        for (ConcreteTask task : tasks) {
+            task.Execute();
+        }
+    }
 }
 
 //"Command"
